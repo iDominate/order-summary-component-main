@@ -1,0 +1,103 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('./images/pattern-background-desktop.svg') no-repeat;
+    background-size: 100%;
+}
+
+.item-container {
+    width: 200px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px #ddd;
+}
+
+.item-container>.image {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 100px;
+    width: 100%;
+    background-size: contain !important;
+    background: url('./images/illustration-hero.svg') no-repeat;
+}
+
+h5 {
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+p:first-of-type,
+p:nth-of-type(2),
+p:nth-of-type(3) {
+    margin-bottom: 0px;
+    font-size: 10px;
+    color: #bbb;
+}
+
+.price-plan {
+
+    background-color: rgba(248, 249, 254);
+    height: 52px;
+
+    border-radius: 10px;
+    margin-top: 24px;
+    width: 180px;
+
+    margin-left: 10px;
+}
+
+img {
+    transform: translate(-40px, 5px);
+    margin-left: 38px;
+}
+
+span {
+    display: inline-block;
+    margin-left: 0px;
+
+    transform: translate(-36px, 10px);
+}
+
+span p:first-child {
+    color: black;
+    font-weight: 600;
+}
+
+a {
+    font-size: 10px;
+    font-weight: 500;
+    transform: translate(6px, 10px);
+    margin-left: -9px;
+}
+
+.button {
+    margin-top: 31px;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    width: 180px;
+    height: 31px;
+    box-shadow: 0px 4px 5px #ddd;
+    font-size: 13px;
+    font-weight: 700;
+    padding-top: 3px;
+    transform: translate(10px, 10px);
+
+}
+
+.item-container>p:last-of-type {
+    margin-top: 10px;
+    color: rgb(164, 168, 187);
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 23px;
+}
